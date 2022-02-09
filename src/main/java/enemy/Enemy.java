@@ -11,4 +11,8 @@ public abstract class Enemy {
     public void takeDamage(int damagePoints){
         this.healthPoints -= damagePoints;
     }
+
+    public int getHealthPoints() {
+        return healthPoints;
+    }
 }
