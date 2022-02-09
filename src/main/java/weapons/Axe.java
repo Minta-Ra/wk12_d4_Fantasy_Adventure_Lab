@@ -4,12 +4,11 @@ import enemy.Enemy;
 
 public class Axe implements IWeapon {
 
-    private IWeapon weapon;
     private int damage;
 
-    public Axe(IWeapon weapon){
+    public Axe () {
 
-        this.weapon = weapon;
+
         this.damage = 5;
     }
 
