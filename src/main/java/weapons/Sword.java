@@ -1,12 +1,12 @@
 package weapons;
 import enemy.Enemy;
 
-public class Axe implements IWeapon {
+public class Sword implements IWeapon{
 
     private int damage;
 
-    public Axe() {
-        this.damage = 5;
+    public Sword() {
+        this.damage = 1;
     }
 
     public void attack(Enemy enemy) {
