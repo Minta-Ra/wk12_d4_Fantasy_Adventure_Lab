@@ -7,10 +7,10 @@ public class Axe implements IWeapon {
     private IWeapon weapon;
     private int damage;
 
-    public Axe(IWeapon weapon, int damage){
+    public Axe(IWeapon weapon){
 
         this.weapon = weapon;
-        this.damage = damage;
+        this.damage = 5;
     }
 
 

@@ -1,8 +1,10 @@
 package weapons;
 
+import enemy.Enemy;
+
 public interface IWeapon {
 
-    int attack();
+    void attack(Enemy enemy);
 
 
 }
