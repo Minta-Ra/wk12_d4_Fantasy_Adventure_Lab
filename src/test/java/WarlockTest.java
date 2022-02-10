@@ -14,14 +14,16 @@ public class WarlockTest {
     Warlock warlock;
     Enemy enemy;
     ISpell spell;
-    IDefend defendMageCastOnEnemy;
+    IDefend defend;
+    IDefend defend1;
 
     @Before
     public void before(){
-        defendMageCastOnEnemy = new Dragon();
+        defend = null;
+        defend1 = new Dragon();
         spell = new LighteningStrike();
         enemy = new Orc(10);
-        warlock = new Warlock("Merlin", 10, spell, defendMageCastOnEnemy);
+        warlock = new Warlock("Merlin", 10, spell, defend);
     }
 
     @Test
@@ -41,9 +43,12 @@ public class WarlockTest {
     }
 
     @Test
-    public void canDefendMageCastOnEnemy(){
+    public void canGetDefended(){
         warlock.cast(enemy);
-        warlock.defendMageCastOnEnemy(enemy);
+        warlock.setDefend(defend1);
+        warlock.defendMageHitEnemy(enemy);
+        assertEquals(defend1, warlock.getDefend());
+        assertEquals(5, enemy.getHealthPoints());
     }
 
 }

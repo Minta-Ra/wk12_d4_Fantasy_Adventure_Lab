@@ -3,14 +3,14 @@ import enemies.Enemy;
 
 public class Dragon implements IDefend{
 
-    private int defendMageCastOnEnemy;
+    private int defend;
 
     public Dragon() {
-        this.defendMageCastOnEnemy = 1;
+        this.defend = 1;
     }
 
-    public void defendMageCastOnEnemy(Enemy enemy) {
-        enemy.takeDamage(defendMageCastOnEnemy);
+    public void defendMageHitEnemy(Enemy enemy) {
+        enemy.takeDamage(defend);
     }
 
 }
