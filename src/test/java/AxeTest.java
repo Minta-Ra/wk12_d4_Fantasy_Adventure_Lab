@@ -1,9 +1,7 @@
-import enemy.Enemy;
 import enemy.Orc;
 import org.junit.Before;
 import org.junit.Test;
 import weapons.Axe;
-
 import static org.junit.Assert.assertEquals;
 
 public class AxeTest {

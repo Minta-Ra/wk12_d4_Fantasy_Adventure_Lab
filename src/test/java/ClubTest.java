@@ -1,9 +1,7 @@
 import enemy.Orc;
 import org.junit.Before;
 import org.junit.Test;
-import weapons.Axe;
 import weapons.Club;
-
 import static org.junit.Assert.assertEquals;
 
 public class ClubTest {

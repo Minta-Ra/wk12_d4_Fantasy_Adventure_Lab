@@ -6,7 +6,6 @@ import org.junit.Test;
 import weapons.Axe;
 import weapons.Club;
 import weapons.IWeapon;
-
 import static org.junit.Assert.assertEquals;
 
 public class BarbarianTest {

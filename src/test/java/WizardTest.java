@@ -5,7 +5,6 @@ import magic.ISpell;
 import org.junit.Before;
 import org.junit.Test;
 import player.Wizard;
-
 import static org.junit.Assert.assertEquals;
 
 
@@ -20,6 +19,16 @@ public class WizardTest {
         spell = new Fireball();
         enemy = new Orc(10);
         wizard = new Wizard("Harry", 10, spell);
+    }
+
+    @Test
+    public void hasName(){
+        assertEquals("Harry", wizard.getName());
+    }
+
+    @Test
+    public void hasHealthPoints(){
+        assertEquals(10, wizard.getHealthPoints());
     }
 
     @Test
