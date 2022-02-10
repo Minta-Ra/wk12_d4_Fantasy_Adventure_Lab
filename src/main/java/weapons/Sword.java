@@ -1,5 +1,5 @@
 package weapons;
-import enemy.Enemy;
+import enemies.Enemy;
 
 public class Sword implements IWeapon{
 

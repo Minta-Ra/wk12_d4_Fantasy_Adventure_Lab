@@ -1,5 +1,5 @@
-import enemy.Enemy;
-import enemy.Orc;
+import enemies.Enemy;
+import enemies.Orc;
 import magic.Fireball;
 import magic.ISpell;
 import org.junit.Before;

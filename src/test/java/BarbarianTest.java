@@ -1,5 +1,5 @@
-import enemy.Enemy;
-import enemy.Orc;
+import enemies.Enemy;
+import enemies.Orc;
 import player.Barbarian;
 import org.junit.Before;
 import org.junit.Test;

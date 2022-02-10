@@ -1,15 +1,18 @@
 package player;
 
-import enemy.Enemy;
+import enemies.Enemy;
 import magic.ISpell;
+import protects.IDefend;
 
 public abstract class Mage extends Player{
 
     private ISpell spell;
+    private IDefend defendMageCastOnEnemy;
 
-    public Mage(String name, int healthPoints, ISpell spell) {
+    public Mage(String name, int healthPoints, ISpell spell, IDefend defendMageCastOnEnemy) {
         super(name, healthPoints);
         this.spell = spell;
+        this.defendMageCastOnEnemy = defendMageCastOnEnemy;
     }
 
     public void cast(Enemy enemy){

@@ -1,6 +1,6 @@
 package weapons;
 
-import enemy.Enemy;
+import enemies.Enemy;
 
 public interface IWeapon {
 

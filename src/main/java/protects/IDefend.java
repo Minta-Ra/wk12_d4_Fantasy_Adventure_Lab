@@ -1,8 +1,10 @@
 package protects;
-import player.Mage;
+import enemies.Enemy;
+import magic.ISpell;
+import weapons.IWeapon;
 
 public interface IDefend {
 
-    void defend(Mage mage);
+    void defendMageCastOnEnemy(Enemy enemy);
 
 }

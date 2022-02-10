@@ -1,5 +1,5 @@
-import enemy.Enemy;
-import enemy.Troll;
+import enemies.Enemy;
+import enemies.Troll;
 import org.junit.Before;
 import org.junit.Test;
 import player.Knight;

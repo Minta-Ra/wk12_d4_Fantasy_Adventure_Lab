@@ -1,5 +1,5 @@
 package magic;
-import enemy.Enemy;
+import enemies.Enemy;
 
 public interface ISpell {
 

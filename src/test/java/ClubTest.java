@@ -1,4 +1,4 @@
-import enemy.Orc;
+import enemies.Orc;
 import org.junit.Before;
 import org.junit.Test;
 import weapons.Club;
