@@ -4,9 +4,8 @@ import magic.Fireball;
 import magic.ISpell;
 import org.junit.Before;
 import org.junit.Test;
-import player.Wizard;
+import players.Wizard;
 import static org.junit.Assert.assertEquals;
-
 
 public class WizardTest {
 

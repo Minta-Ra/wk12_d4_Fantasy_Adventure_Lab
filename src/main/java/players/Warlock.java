@@ -1,5 +1,4 @@
-package player;
-
+package players;
 import magic.ISpell;
 
 public class Warlock extends Mage{
@@ -7,4 +6,5 @@ public class Warlock extends Mage{
     public Warlock(String name, int healthPoints, ISpell spell) {
         super(name, healthPoints, spell);
     }
+
 }

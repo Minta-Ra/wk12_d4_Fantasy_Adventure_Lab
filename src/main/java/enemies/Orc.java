@@ -6,5 +6,4 @@ public class Orc extends Enemy{
         super(healthPoints);
     }
 
-
 }

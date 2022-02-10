@@ -1,4 +1,4 @@
-package player;
+package players;
 import enemies.Enemy;
 import weapons.IWeapon;
 

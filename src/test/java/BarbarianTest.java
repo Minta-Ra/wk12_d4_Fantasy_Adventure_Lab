@@ -1,6 +1,6 @@
 import enemies.Enemy;
 import enemies.Orc;
-import player.Barbarian;
+import players.Barbarian;
 import org.junit.Before;
 import org.junit.Test;
 import weapons.Axe;

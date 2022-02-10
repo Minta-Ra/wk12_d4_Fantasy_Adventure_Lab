@@ -13,6 +13,5 @@ public class Dragon implements IDefend{
         enemy.takeDamage(defendMageCastOnEnemy);
     }
 
-
 }
 

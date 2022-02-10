@@ -1,5 +1,4 @@
-package player;
-
+package players;
 import enemies.Enemy;
 import magic.ISpell;
 import protects.IDefend;
@@ -22,4 +21,5 @@ public abstract class Mage extends Player{
     public ISpell getSpell() {
         return spell;
     }
+
 }

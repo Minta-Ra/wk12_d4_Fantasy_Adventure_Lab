@@ -12,4 +12,5 @@ public class Axe implements IWeapon {
     public void attack(Enemy enemy) {
         enemy.takeDamage(damage);
     }
+
 }

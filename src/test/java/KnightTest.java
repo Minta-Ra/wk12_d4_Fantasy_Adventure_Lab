@@ -2,7 +2,7 @@ import enemies.Enemy;
 import enemies.Troll;
 import org.junit.Before;
 import org.junit.Test;
-import player.Knight;
+import players.Knight;
 import weapons.Club;
 import weapons.IWeapon;
 import weapons.Sword;

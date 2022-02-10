@@ -1,5 +1,4 @@
-package player;
-
+package players;
 import magic.ISpell;
 
 public class Wizard extends Mage {

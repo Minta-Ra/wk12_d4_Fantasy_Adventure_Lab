@@ -20,4 +20,5 @@ public class ClubTest {
         club.attack(orc);
         assertEquals(8, orc.getHealthPoints());
     }
+
 }

@@ -1,5 +1,4 @@
-package player;
-
+package players;
 import weapons.IWeapon;
 
 public class Dwarf extends Fighter{

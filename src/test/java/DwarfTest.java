@@ -2,7 +2,7 @@ import enemies.Enemy;
 import enemies.Troll;
 import org.junit.Before;
 import org.junit.Test;
-import player.Dwarf;
+import players.Dwarf;
 import weapons.Axe;
 import weapons.IWeapon;
 import weapons.Sword;

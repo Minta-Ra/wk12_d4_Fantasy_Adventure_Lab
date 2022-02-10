@@ -4,10 +4,9 @@ import magic.ISpell;
 import magic.LighteningStrike;
 import org.junit.Before;
 import org.junit.Test;
-import player.Warlock;
+import players.Warlock;
 import protects.Dragon;
 import protects.IDefend;
-
 import static org.junit.Assert.assertEquals;
 
 public class WarlockTest {
@@ -46,4 +45,5 @@ public class WarlockTest {
         warlock.cast(enemy);
         warlock.defendMageCastOnEnemy(enemy);
     }
+
 }

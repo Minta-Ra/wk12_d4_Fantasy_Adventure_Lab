@@ -20,4 +20,5 @@ public class AxeTest {
         axe.attack(orc);
         assertEquals(5, orc.getHealthPoints());
     }
+
 }

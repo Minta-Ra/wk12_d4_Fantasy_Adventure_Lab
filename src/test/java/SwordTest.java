@@ -20,4 +20,5 @@ public class SwordTest {
         sword.attack(troll);
         assertEquals(9, troll.getHealthPoints());
     }
+
 }

@@ -1,7 +1,6 @@
 package magic;
 import enemies.Enemy;
 
-
 public class LighteningStrike implements ISpell {
 
     private int damage;
@@ -10,8 +9,8 @@ public class LighteningStrike implements ISpell {
         this.damage = 4;
     }
 
-
     public void cast(Enemy enemy) {
         enemy.takeDamage(damage);
     }
+
 }
